@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «Lesson_19»</title>
+</head>
+
+<body>
+	<div class="rootpage">
+		<h1>Верстка «Lesson_19»</h1>
+		<div class="rootpage__info">
+			Опис проєкту
+		</div>
+		<h2>Готові сторінки:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Головна</a></li>
+		</ol>
+		<h2>Попапи:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html#"></a></li>
+		</ol>
+		<div class="rootpage__tnx">
+			<h2>Дякую за курс!</h2>
+			<p>Я радий навчатись в такого крутого викладача.</p>
+			<p>Та за підтримки неймовірних менторів</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>Мої враження:</h2>
+			<p>Радість: <a href="https://cdn.theatlantic.com/thumbor/u8nEtLNd4u0RVZKwnk_MI2w4YEA=/0x0:3000x1688/960x540/medimg/mt/2021/04/unnamed/original.jpg" target="_blank">Величезна</a>
+			</p>
+			<p>Емоції: <a href="https://booksonline.com.ua/blog/wp-content/uploads/2018/10/50-luchshih-fantasticheskih-filmov-v-istorii-Oblasti-tmy-Limitless-2011-950x534.jpg" target="_blank">Як
+					у цьому фільмі)</a></p>
+			<p>Бажання розвиватись надалі: <a href="https://i0.wp.com/www.thatmomentin.com/wp-content/uploads/2016/03/Screen-Shot-2016-03-24-at-9.32.35-PM.png?fit=999%2C536&ssl=1" target="_blank">Тільки вперед!</a></p>
+		</div>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #344e41;
+		background-color: #83c5be;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #457b9d;
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #aaa768;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #1d3557;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #1d3557;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	.rootpage__tnx:hover {
+		background-color: #457b9d;
+	}
+
+	.rootpage__contacts:hover {
+		background-color: #457b9d;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #e63946;
+
+	}
+
+	.rootpage__contacts a {
+		color: #14213d;
+	}
+
+	.rootpage__tnx {
+		background: #bc4749;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
+
+</html>
